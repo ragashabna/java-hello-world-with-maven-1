@@ -25,6 +25,18 @@
       </plugin>
     </plugins>
   </build>
+  <distributionManagement>
+    <repository>
+      <id>deploymentNexus</id>
+      <name>internal release</name>
+      <url>http://localhost:8081/repository/apple-release/</url>
+    </repository>
+    <snapshotRepository>
+      <id>deploymentNexus</id>
+      <name>internal snapshot release</name>
+      <url>http://localhost:8081/repository/apple-snapshot/</url>
+    </snapshotRepository>
+  </distributionManagement>
 
   <dependencies>
 
