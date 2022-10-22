@@ -29,12 +29,12 @@
     <repository>
       <id>deploymentNexus</id>
       <name>internal release</name>
-      <url>http://localhost:8081/repository/apple-release/</url>
+      <url>http://localhost:8081/repository/cassie-release/</url>
     </repository>
     <snapshotRepository>
       <id>deploymentNexus</id>
       <name>internal snapshot release</name>
-      <url>http://localhost:8081/repository/apple-snapshot/</url>
+      <url>http://localhost:8081/repository/cassie-snapshot/</url>
     </snapshotRepository>
   </distributionManagement>
 
